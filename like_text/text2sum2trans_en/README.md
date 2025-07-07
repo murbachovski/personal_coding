@@ -1,3 +1,5 @@
+## 영어 문장을 자동으로 요약하고 한국어로 번역해주는 FastAPI 기반 웹 애플리케이션.
+
 # 가상환경 생성
 ```
 # conda create -n liketext python=3.10
