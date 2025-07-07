@@ -5,5 +5,5 @@
     # uvicorn main:app --reload
 # 웹 구성
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2a0b2044-705d-473f-a161-691ec3228457" width="1000">
+  <img src="https://github.com/user-attachments/assets/e99b5ab5-ba0b-45f8-b01b-eea354f15774" width="1000">
 </p>
