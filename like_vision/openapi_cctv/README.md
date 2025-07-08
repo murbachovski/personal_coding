@@ -5,19 +5,14 @@ ITS OpenAPI 기반 CCTV + YOLO 탐지
 
 # OpenAPI
 ```
-ITS
-https://its.go.kr/opendata/
+# ITS
+# https://its.go.kr/opendata/
 ```
 
 # 가상환경 생성
 ```
 # conda create -n oapi python=3.9
 # pip install pandas opencv-python ultralytics
-```
-
-# 웹 실행
-```
-# uvicorn main:app --reload
 ```
 
 # 웹 구성
