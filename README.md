@@ -34,7 +34,7 @@ YOLO로 객체를 탐지하고 **카운팅**까지 수행하는 프로젝트
 
 ---
 
-## 🎨 like_diffusion/stable_diffusion_generate  
+## 🎨 like_vision3/stable_diffusion_generate  
 🖌️ 텍스트 프롬프트를 입력하면  
 Stable Diffusion으로 이미지를 생성하고  
 iTerm2 터미널에서 바로 출력하는 도구
