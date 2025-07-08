@@ -22,5 +22,5 @@ ITS OpenAPI 기반 CCTV + YOLO 탐지
 
 # 결과
 <p align="center">
-  <img src="" width="1000">
+  <img src="https://github.com/user-attachments/assets/2782037f-842c-469c-9118-51526f8f356f" width="1000">
 </p>
