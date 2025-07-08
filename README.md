@@ -13,9 +13,6 @@
 ## 🖼️ like_img_text/img2caption  
 ✨ 업로드한 이미지를 자동으로 설명해주는  
 FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/e99b5ab5-ba0b-45f8-b01b-eea354f15774" width="300">
-</p>
 
 ---
 
