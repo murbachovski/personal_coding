@@ -5,22 +5,22 @@ ITS OpenAPI 기반 실시간 CCTV 영상에서 YOLO를 이용한 객체 탐지 �
 
 # OpenAPI
 ```
-# ITS
-# https://its.go.kr/opendata/
+ITS
+https://its.go.kr/opendata/
 ```
 
 # 가상환경 생성
 ```
-# conda create -n oapi python=3.9
-# pip install pandas opencv-python ultralytics
-# pip install pandas opencv-python ultralytics shapely lap
+conda create -n oapi python=3.9
+pip install pandas opencv-python ultralytics
+pip install pandas opencv-python ultralytics shapely lap
 ```
 
 # 실행
 ```
-# ⚠️ 주의: ultralytics/solutions 내부에서 similarity_search 관련 import 오류가 발생할 경우,
-#          ultralytics/solutions/__init__.py 에서 아래 라인을 주석 처리:
-#          from .similarity_search import SearchApp, VisualAISearch
+⚠️ 주의: ultralytics/solutions 내부에서 similarity_search 관련 import 오류가 발생할 경우,
+ultralytics/solutions/__init__.py 에서 아래 라인을 주석 처리:
+from .similarity_search import SearchApp, VisualAISearch
 ```
 
 # OpenAPI 설명
