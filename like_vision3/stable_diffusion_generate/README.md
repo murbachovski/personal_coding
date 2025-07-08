@@ -17,4 +17,5 @@ python3 app.py
 # 📸 결과
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5d0e1df4-86c0-4df9-805e-35765b21f83c" width="1000">
+  <img src="https://github.com/user-attachments/assets/c0506c7a-2567-412a-9a0f-83b6f3854410" width="1000">
 </p>
