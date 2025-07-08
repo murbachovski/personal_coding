@@ -16,9 +16,9 @@ pip install pandas opencv-python ultralytics
 pip install pandas opencv-python ultralytics shapely lap
 ```
 
-# 실행
+# ⚠️ 주의
 ```
-⚠️ 주의: ultralytics/solutions 내부에서 similarity_search 관련 import 오류가 발생할 경우,
+ultralytics/solutions 내부에서 similarity_search 관련 import 오류가 발생할 경우,
 ultralytics/solutions/__init__.py 에서 아래 라인을 주석 처리:
 from .similarity_search import SearchApp, VisualAISearch
 ```
