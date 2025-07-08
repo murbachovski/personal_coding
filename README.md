@@ -2,6 +2,14 @@
 
 ---
 
+## 💻 개발 및 실행 환경
+
+- 💻 **운영체제**: macOS (Apple Silicon, M1)
+- 🧪 **개발 도구**: Visual Studio Code
+- 🐍 **가상환경**: Conda 사용
+
+---
+
 ## 🖼️ like_img_text/img2caption  
 ✨ 업로드한 이미지를 자동으로 설명해주는  
 FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
