@@ -15,7 +15,12 @@ ITS OpenAPI 기반 CCTV + YOLO 탐지
 # pip install pandas opencv-python ultralytics
 ```
 
-# 웹 구성
+# OpenAPI 설명
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2a0b2044-705d-473f-a161-691ec3228457" width="1000">
+  <img src="https://github.com/user-attachments/assets/9e80f6a1-f7c2-47ee-b162-a59e9cc888fb" width="1000">
+</p>
+
+# 결과
+<p align="center">
+  <img src="" width="1000">
 </p>
