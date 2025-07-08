@@ -1,6 +1,6 @@
 # 🚀 프로젝트 설명
 ```
-Stable Diffusion 기반 텍스트 → 이미지 생성 + iTerm2 출력
+Stable Diffusion 기반 Hugging Face API로 텍스트 입력 → 이미지 생성 후 iTerm2에 출력
 ```
 
 # 🐍 가상환경 생성
