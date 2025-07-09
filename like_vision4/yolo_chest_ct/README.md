@@ -24,7 +24,7 @@ pip install ultralytics
 
 ```
 
-# 📸 Batch Size = 16
+# 📸 Batch Size
 <p align="center">
   <img src="https://github.com/user-attachments/assets/64892439-03e3-4c9c-af34-a6f77f905cac" width="500">
 </p>
