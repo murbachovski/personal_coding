@@ -52,7 +52,7 @@ model.train(
     auto_augment=None
 )
 ```
-> 📌 *의료영상 특성을 고려하여, 데이터 증강을 최소화하고 모자이크를 비활성화했습니다.*
+📌 *의료영상 특성을 고려하여, 데이터 증강을 최소화하고 모자이크를 비활성화했습니다.*
 
 # 🔢 Batch Size
 <p align="center">
@@ -78,7 +78,6 @@ model.train(
   <img src="https://github.com/user-attachments/assets/3728e4b8-8392-43ee-9308-fa1ef0506136" width="190">
 </p>
 
-# 🔔 YOLO11n Chest CT Classification 모델 검증 결과
 ---
 
 ## 📊 성능 평가 결과
