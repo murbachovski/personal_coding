@@ -33,6 +33,7 @@ ChestCT_Pneumothorax  : 흉부 CT_기흉
 ```
 
 # 🧪 Train Params
+📌 *의료영상 특성을 고려하여, 데이터 증강을 최소화하고 모자이크를 비활성화했습니다.*
 ```
 model.train(
     data="datasets",
@@ -52,7 +53,6 @@ model.train(
     auto_augment=None
 )
 ```
-📌 *의료영상 특성을 고려하여, 데이터 증강을 최소화하고 모자이크를 비활성화했습니다.*
 
 # 🔢 Batch Size
 <p align="center">
