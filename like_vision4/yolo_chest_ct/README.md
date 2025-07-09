@@ -3,11 +3,10 @@
 Ultralytics YOLO11n-cls 기반으로 흉부 CT에서 5가지 질환을 분류하는 의료영상 특화 모델
 ```
 
-# 데이터 정보
-```
-AIHub
-
-```
+# AIHub
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f9330667-f430-4126-b90d-ea9acdda600b" width="1000">
+</p>
 
 # 🐍 가상환경 생성
 ```
@@ -25,7 +24,7 @@ pip install ultralytics
   <img src="https://github.com/user-attachments/assets/c09f2a73-fdfc-41dc-afbd-de4c06c12b4d" width="1000">
 </p>
 
-# 📸 결과2
+# 📸 결과3
 <p align="center">
   <img src="https://github.com/user-attachments/assets/64892439-03e3-4c9c-af34-a6f77f905cac" width="1000">
 </p>
