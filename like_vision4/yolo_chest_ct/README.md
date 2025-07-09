@@ -16,12 +16,32 @@ pip install ultralytics
 
 # Classes
 ```
-# ChestCT_ILD           : 흉부 CT_간질성 폐질환
-# ChestCT_Lung_Cancer   : 흉부 CT_폐암
-# ChestCT_Normal        : 흉부 CT_정상
-# ChestCT_Pneumonia     : 흉부 CT_폐렴
-# ChestCT_Pneumothorax  : 흉부 CT_기흉
+ChestCT_ILD           : 흉부 CT_간질성 폐질환
+ChestCT_Lung_Cancer   : 흉부 CT_폐암
+ChestCT_Normal        : 흉부 CT_정상
+ChestCT_Pneumonia     : 흉부 CT_폐렴
+ChestCT_Pneumothorax  : 흉부 CT_기흉
+```
 
+# Train Params
+```
+model.train(
+    data="datasets",
+    epochs=300,
+    batch=32,
+    imgsz=512,
+    patience=5,
+    device="mps",
+    hsv_h=0.0,
+    hsv_s=0.0,
+    hsv_v=0.0,
+    translate=0.0,
+    scale=0.0,
+    fliplr=0.0,
+    mosaic=0.0,
+    erasing=0.0,
+    auto_augment=None
+)
 ```
 
 # 📸 Batch Size
