@@ -3,6 +3,15 @@
 Ultralytics YOLO11n-cls 기반으로 흉부 CT에서 5가지 질환을 분류하는 의료영상 특화 모델
 ```
 
+# 환경 및 모델 정보
+```
+- Ultralytics 버전: 8.3.163
+- Python 버전: 3.9.23
+- PyTorch 버전: 2.7.1 (CPU, Apple M1)
+- 모델: YOLO11n-cls (classification)
+- 모델 구조: 47 layers, 1,532,429 parameters, 3.2 GFLOPs
+```
+
 # 🐍 가상환경 생성
 ```
 conda create -n chestct python=3.10
@@ -68,3 +77,24 @@ model.train(
   <img src="https://github.com/user-attachments/assets/265a9a1f-605d-4b9c-8f0e-f215eeb0e5b6" width="500">
   <img src="https://github.com/user-attachments/assets/3728e4b8-8392-43ee-9308-fa1ef0506136" width="500">
 </p>
+
+# YOLO11n Chest CT Classification 모델 검증 결과
+---
+
+## 성능 평가 결과
+
+| 클래스 | Top-1 Accuracy | Top-5 Accuracy |
+|--------|----------------|----------------|
+| 전체   | 99.67%         | 100.00%        |
+
+- Top-1 Accuracy: 모델이 가장 높은 확률로 예측한 클래스가 실제 정답과 일치하는 비율  
+- Top-5 Accuracy: 모델이 확률 상위 5개 예측 중에 실제 정답이 포함되는 비율
+
+---
+
+## 결론
+
+YOLO11n classification 모델은 해당 검증 데이터셋에서 매우 높은 정확도를 보였습니다.  
+Top-1 정확도 99.67%, Top-5 정확도 100%로 우수한 성능을 확인할 수 있습니다.
+
+---
