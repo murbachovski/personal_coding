@@ -25,6 +25,7 @@ ChestCT_Pneumothorax  : 흉부 CT_기흉
 
 # Train Params
 ```
+# 모델 훈련 - 의료영상에 맞게 증강기법 최소화 및 모자이크 끔
 model.train(
     data="datasets",
     epochs=300,
