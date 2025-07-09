@@ -2,7 +2,7 @@
 from ultralytics import YOLO
 
 # 1. 모델 로드
-model = YOLO("yolo_chest_ct/yolo11n_chest_ct_.pt")
+model = YOLO("yolo11n-cls.pt")
 
 # 2. 모델 훈련 - 의료영상에 맞게 증강기법 최소화 및 모자이크 끔
 model.train(
@@ -22,12 +22,3 @@ model.train(
     erasing=0.0,
     auto_augment=None
 )
-
-# all      0.997          1
-
-# 영어 클래스 이름	한국어 번역
-# ChestCT_ILD	흉부 CT_간질성 폐질환
-# ChestCT_Lung_Cancer	흉부 CT_폐암
-# ChestCT_Normal	흉부 CT_정상
-# ChestCT_Pneumonia	흉부 CT_폐렴
-# ChestCT_Pneumothorax	흉부 CT_기흉
