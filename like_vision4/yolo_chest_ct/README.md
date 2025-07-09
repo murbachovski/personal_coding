@@ -11,7 +11,7 @@ pip install ultralytics
 
 # AIHub
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f9330667-f430-4126-b90d-ea9acdda600b" width="500">
+  <img src="https://github.com/user-attachments/assets/f9330667-f430-4126-b90d-ea9acdda600b" width="1000">
 </p>
 
 # Classes
@@ -26,24 +26,24 @@ pip install ultralytics
 
 # 📸 Batch Size
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/64892439-03e3-4c9c-af34-a6f77f905cac" width="500">
+  <img src="https://github.com/user-attachments/assets/64892439-03e3-4c9c-af34-a6f77f905cac" width="1000">
 </p>
 
 # 📸 Confusion Matrix
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/72c004d0-01e5-47bf-aa2c-58b4de1c5411" width="500">
+  <img src="https://github.com/user-attachments/assets/72c004d0-01e5-47bf-aa2c-58b4de1c5411" width="1000">
 </p>
 
 # 📸 Result Graphs
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c09f2a73-fdfc-41dc-afbd-de4c06c12b4d" width="500">
+  <img src="https://github.com/user-attachments/assets/c09f2a73-fdfc-41dc-afbd-de4c06c12b4d" width="1000">
 </p>
 
 # 📸 Result Images
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b98abc11-f5ee-423b-a74c-2f14c009e1cd" width="500">
-  <img src="https://github.com/user-attachments/assets/fc389aa8-d61d-498c-be83-1d046e714aab" width="500">
-  <img src="https://github.com/user-attachments/assets/c8b3bb14-4ece-469a-9d05-c8c6895e2bf3" width="500">
-  <img src="https://github.com/user-attachments/assets/265a9a1f-605d-4b9c-8f0e-f215eeb0e5b6" width="500">
-  <img src="https://github.com/user-attachments/assets/3728e4b8-8392-43ee-9308-fa1ef0506136" width="500">
+  <img src="https://github.com/user-attachments/assets/b98abc11-f5ee-423b-a74c-2f14c009e1cd" width="300">
+  <img src="https://github.com/user-attachments/assets/fc389aa8-d61d-498c-be83-1d046e714aab" width="300">
+  <img src="https://github.com/user-attachments/assets/c8b3bb14-4ece-469a-9d05-c8c6895e2bf3" width="300">
+  <img src="https://github.com/user-attachments/assets/265a9a1f-605d-4b9c-8f0e-f215eeb0e5b6" width="300">
+  <img src="https://github.com/user-attachments/assets/3728e4b8-8392-43ee-9308-fa1ef0506136" width="300">
 </p>
