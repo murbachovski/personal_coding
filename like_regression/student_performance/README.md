@@ -1,99 +1,60 @@
 # 🚀 프로젝트 설명
 ```
-Ultralytics YOLO11n-cls 기반으로 흉부 CT에서 5가지 질환을 분류하는 의료영상 특화 모델
+학생 데이터셋을 활용한 GPA 예측 신경망 모델로, MinMaxScaler를 적용하여 정규화한 학습
 ```
 
 # ⚙️ 환경 및 모델 정보
 ```
-- Ultralytics 버전: 8.3.163
-- Python 버전: 3.9.23
-- PyTorch 버전: 2.7.1 (CPU, Apple M1)
-- 모델: YOLO11n-cls (classification)
-- 모델 구조: 47 layers, 1,532,429 parameters, 3.2 GFLOPs
+- Python 버전: 3.10
+- TensorFlow 버전: 2.x
+- Scikit-learn 버전: 1.x
+- GPU/CPU: CPU 또는 GPU 환경 모두 사용 가능
+- 모델: 완전 연결 신경망(Sequential)
 ```
 
 # 🐍 가상환경 생성
 ```
-conda create -n chestct python=3.10
-pip install ultralytics
+conda create -n regression python=3.10
+pip install tensorflow scikit-learn pandas matplotlib seaborn
 ```
 
-# 📁 AIHub
+# 📁 Kaggle
+Students performance analysis and GPA prediction
+
+# 📊 EDA
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f9330667-f430-4126-b90d-ea9acdda600b" width="1000">
+  <img src="" width="1000">
 </p>
 
-# 🫁 Classes
-```
-ChestCT_ILD           : 흉부 CT_간질성 폐질환
-ChestCT_Lung_Cancer   : 흉부 CT_폐암
-ChestCT_Normal        : 흉부 CT_정상
-ChestCT_Pneumonia     : 흉부 CT_폐렴
-ChestCT_Pneumothorax  : 흉부 CT_기흉
-```
-
-# 🧪 Train Params
-📌 *의료영상 특성을 고려하여, 데이터 증강을 최소화하고 모자이크를 비활성화했습니다.*
-```
-model.train(
-    data="datasets",
-    epochs=300,
-    batch=32,
-    imgsz=512,
-    patience=5,
-    device="mps",
-    hsv_h=0.0,
-    hsv_s=0.0,
-    hsv_v=0.0,
-    translate=0.0,
-    scale=0.0,
-    fliplr=0.0,
-    mosaic=0.0,
-    erasing=0.0,
-    auto_augment=None
-)
-```
-
-# 🔢 Batch Size
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/64892439-03e3-4c9c-af34-a6f77f905cac" width="1000">
-</p>
-
-# 📸 Confusion Matrix
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/72c004d0-01e5-47bf-aa2c-58b4de1c5411" width="1000">
-</p>
-
-# 📈 Result Graphs
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c09f2a73-fdfc-41dc-afbd-de4c06c12b4d" width="1000">
-</p>
-
-# 🖼️ Result Images
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b98abc11-f5ee-423b-a74c-2f14c009e1cd" width="190">
-  <img src="https://github.com/user-attachments/assets/fc389aa8-d61d-498c-be83-1d046e714aab" width="190">
-  <img src="https://github.com/user-attachments/assets/c8b3bb14-4ece-469a-9d05-c8c6895e2bf3" width="190">
-  <img src="https://github.com/user-attachments/assets/265a9a1f-605d-4b9c-8f0e-f215eeb0e5b6" width="190">
-  <img src="https://github.com/user-attachments/assets/3728e4b8-8392-43ee-9308-fa1ef0506136" width="190">
-</p>
+<img width="1000" height="800" alt="Image" src="https://github.com/user-attachments/assets/5c82bece-29af-420c-b804-48b5f941e8df" />
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/de30a392-6a39-4087-bf05-887237db48d6" />
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/cf96fb63-279b-4cc5-9374-751843db6583" />
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/ebfb88b3-968c-4756-bbc9-f8d8456e3fdd" />
+<img width="567" height="500" alt="Image" src="https://github.com/user-attachments/assets/8a2d24b4-9cd4-4ed2-9c22-b60c9e34cd3a" />
+<img width="567" height="500" alt="Image" src="https://github.com/user-attachments/assets/38150ab1-682b-42e6-ad5a-e764fdaf1b23" />
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/10e407a0-c63c-4cd6-89f3-de28566369e6" />
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/466167a5-7fc1-4846-9270-73192f29bd1d" />
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/a4eb3a4d-5014-4362-985a-154a4a2dc6b7" />
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/a4db2523-baac-4708-867b-4b9bdf71acd8" />
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/b0570a43-b08e-4e86-935f-40713c72563c" />
 
 ---
 
 ## 📊 성능 평가 결과
 
-| 클래스 | Top-1 Accuracy | Top-5 Accuracy |
-|--------|----------------|----------------|
-| 전체   | 99.67%         | 100.00%        |
+<기존>
+Total deviation: 4.39344392454638
+Average deviation: 0.29289626163642535
 
-- Top-1 Accuracy: 모델이 가장 높은 확률로 예측한 클래스가 실제 정답과 일치하는 비율  
-- Top-5 Accuracy: 모델이 확률 상위 5개 예측 중에 실제 정답이 포함되는 비율
-
+<MinMaxScaler 적용>
+Total deviation: 1.9896162748336792
+Average deviation: 0.13264109194278717
 ---
 
 ## 🎉 결론
 
-YOLO11n classification 모델은 해당 검증 데이터셋에서 매우 높은 정확도를 보였습니다.  
-Top-1 정확도 99.67%, Top-5 정확도 100%로 우수한 성능을 확인할 수 있습니다.
+MinMaxScaler 적용 및 신경망 모델을 통해 학생 GPA 예측 가능함  
+조기 종료와 배치 학습 등 안정적 학습 적용  
+향후 변수 추가 및 모델 튜닝을 통한 성능 향상 기대
 
 ---
