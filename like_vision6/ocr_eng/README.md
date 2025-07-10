@@ -27,11 +27,12 @@
 
 ```bash
 # 1. 가상환경 생성 및 활성화
-python3 -m venv venv
-source venv/bin/activate  # (Windows: venv\Scripts\activate)
+conda create -n ocr python=3.9
 
-# 2. 필요한 패키지 설치
-pip install -r requirements.txt
+# 2. 필요한 패키지 설치(Mac M1)
+# brew install tesseract
+# brew install tesseract-lang
+# pip install pytesseract pillow
 
 # 3. FastAPI 서버 실행
 uvicorn main:app --reload
