@@ -20,7 +20,7 @@ pip install tensorflow scikit-learn pandas matplotlib seaborn
 
 # 📁 Kaggle
 
-[](Students performance analysis and GPA prediction)
+[Students performance analysis and GPA prediction](https://www.kaggle.com/code/nairec/students-performance-analysis-and-gpa-prediction/notebook)
 
 # 📊 EDA
 <p align="center">
