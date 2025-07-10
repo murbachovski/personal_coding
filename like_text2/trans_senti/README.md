@@ -19,7 +19,7 @@ pip install transformers
 pip install torch
 ```
 
-🧠 작동 원리
+# 🧠 작동 원리
 ```
 pipeline("sentiment-analysis")는 Hugging Face의 사전 학습 모델을 불러와 사용합니다.
 문장을 토큰화하고, BERT 기반 모델에 입력하여 감정(긍/부정)을 분류합니다.
@@ -28,5 +28,5 @@ pipeline("sentiment-analysis")는 Hugging Face의 사전 학습 모델을 불러
 
 # 🖼️ Result Images
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7a528db9-da57-42a8-9183-6d1389dc2181" width="500">
+  <img src="https://github.com/user-attachments/assets/7a528db9-da57-42a8-9183-6d1389dc2181" width="1000">
 </p>
