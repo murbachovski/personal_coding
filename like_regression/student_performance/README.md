@@ -23,9 +23,9 @@ Students performance analysis and GPA prediction
 
 # 📊 EDA
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5c82bece-29af-420c-b804-48b5f941e8df" width="1000">
-  <img src="https://github.com/user-attachments/assets/de30a392-6a39-4087-bf05-887237db48d6" width="1000">
-  <img src="https://github.com/user-attachments/assets/de30a392-6a39-4087-bf05-887237db48d6" width="1000">
+  <img src="https://github.com/user-attachments/assets/5c82bece-29af-420c-b804-48b5f941e8df" width="500">
+  <img src="https://github.com/user-attachments/assets/de30a392-6a39-4087-bf05-887237db48d6" width="600">
+  <img src="https://github.com/user-attachments/assets/de30a392-6a39-4087-bf05-887237db48d6" width="700">
   <img src="https://github.com/user-attachments/assets/cf96fb63-279b-4cc5-9374-751843db6583" width="1000">
   <img src="https://github.com/user-attachments/assets/ebfb88b3-968c-4756-bbc9-f8d8456e3fdd" width="1000">
   <img src="https://github.com/user-attachments/assets/8a2d24b4-9cd4-4ed2-9c22-b60c9e34cd3a" width="1000">
@@ -41,13 +41,14 @@ Students performance analysis and GPA prediction
 
 ## 📊 성능 평가 결과
 
-<기존>
-Total deviation: 4.39344392454638
-Average deviation: 0.29289626163642535
+<기존>  
+Total deviation: 4.39344392454638  
+Average deviation: 0.29289626163642535  
 
-<MinMaxScaler 적용>
-Total deviation: 1.9896162748336792
-Average deviation: 0.13264109194278717
+<MinMaxScaler 적용>  
+Total deviation: 1.9896162748336792  
+Average deviation: 0.13264109194278717  
+
 ---
 
 ## 🎉 결론
