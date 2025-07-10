@@ -21,7 +21,10 @@ pip install gradio
 # 🖼️ 웹 구성
 <p align="center">
   <img src="https://github.com/user-attachments/assets/53b5cf4b-b9f4-4ee3-a96d-aa9ccae31d17" width="1000">
-  <img src="https://github.com/user-attachments/assets/d1d0f0aa-84cc-4000-a235-a1f3baab7422" width="1000">
 </p>
 
 ---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1d0f0aa-84cc-4000-a235-a1f3baab7422" width="1000">
+</p>
