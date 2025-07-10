@@ -25,7 +25,7 @@
 
 ## 🐍 가상환경 생성 및 실행 방법
 
-```bash
+```
 # 1. 가상환경 생성 및 활성화
 conda create -n ocr python=3.9
 
@@ -36,12 +36,13 @@ conda create -n ocr python=3.9
 
 # 3. FastAPI 서버 실행
 uvicorn main:app --reload
-
+./run.sh
+```
 
 # 🖼️ Result Images
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b98abc11-f5ee-423b-a74c-2f14c009e1cd" width="190">
-  <img src="https://github.com/user-attachments/assets/fc389aa8-d61d-498c-be83-1d046e714aab" width="190">
+  <img src="https://github.com/user-attachments/assets/33669e67-3bc5-4eb0-ad60-5b61974dad54" width="190">
+  <img src="https://github.com/user-attachments/assets/d5eebf20-83a5-420e-a9b5-1f5a39164fb9" width="190">
 </p>
 
 ---
