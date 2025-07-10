@@ -1,6 +1,0 @@
-path: /Users/jini/Downloads/jini/smallproject/like_vision6/yolo_chest_x_ray/datasets
-train: train
-val: val
-
-nc: 2 # 클래스 수
-names: ["abnormal", "normal"]  # 클래스 이름들
