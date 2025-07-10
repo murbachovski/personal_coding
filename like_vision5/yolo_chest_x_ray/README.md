@@ -75,11 +75,10 @@ model.train(
 
 # 🖼️ Result Images
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b98abc11-f5ee-423b-a74c-2f14c009e1cd" width="190">
-  <img src="https://github.com/user-attachments/assets/fc389aa8-d61d-498c-be83-1d046e714aab" width="190">
-  <img src="https://github.com/user-attachments/assets/c8b3bb14-4ece-469a-9d05-c8c6895e2bf3" width="190">
-  <img src="https://github.com/user-attachments/assets/265a9a1f-605d-4b9c-8f0e-f215eeb0e5b6" width="190">
-  <img src="https://github.com/user-attachments/assets/3728e4b8-8392-43ee-9308-fa1ef0506136" width="190">
+  <img src="https://github.com/user-attachments/assets/667e535e-ee9b-43eb-8a37-371070033f6a" width="190">
+  <img src="https://github.com/user-attachments/assets/011c324a-c16a-4175-bc81-8160f8d4ae74" width="190">
+  <img src="https://github.com/user-attachments/assets/dec2d639-cf35-4ad1-b899-7d1984b42ec8" width="190">
+  <img src="https://github.com/user-attachments/assets/9df6f924-ba80-4a0f-a079-afe7154761d6" width="190">
 </p>
 
 ---
