@@ -41,7 +41,7 @@ FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
 
 ---
 
-## 𐎟 like_text4/grammer_corr
+## 🇺🇸 like_text4/grammer_corr
 웹에서 영어 문장을 입력받아 language_tool_python으로 문법과 맞춤법을 자동 교정하고  
 이미 깔끔한 문장에는 친절한 안내 메시지를 보여주는 FastAPI 웹 서비스
 
