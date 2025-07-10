@@ -1,7 +1,3 @@
-# 📝 영문법 자동 교정기 (FastAPI + language_tool_python)
-
----
-
 ## 🚀 프로젝트 설명
 
 웹에서 영어 문장을 입력받아 `language_tool_python` 라이브러리를 활용해 문법과 맞춤법을 자동으로 교정해주는 FastAPI 기반 웹 서비스입니다.  
