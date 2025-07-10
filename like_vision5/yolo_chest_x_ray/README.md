@@ -18,12 +18,11 @@ conda create -n chest_x_ray python=3.10
 pip install ultralytics
 ```
 
-# 📁 AIHub
+# 📁 Kaggle
 <p align="center">
   <img src="https://github.com/user-attachments/assets/63e76387-784c-4b22-a0f8-8310af0839ce" width="1000">
   https://www.kaggle.com/datasets/tolgadincer/labeled-chest-xray-images
 </p>
-
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d8b20258-d663-4e5b-a986-ce2b6398a088" width="1000">
@@ -33,21 +32,18 @@ pip install ultralytics
 
 # 🫁 Classes
 ```
-ChestCT_ILD           : 흉부 CT_간질성 폐질환
-ChestCT_Lung_Cancer   : 흉부 CT_폐암
-ChestCT_Normal        : 흉부 CT_정상
-ChestCT_Pneumonia     : 흉부 CT_폐렴
-ChestCT_Pneumothorax  : 흉부 CT_기흉
+0 Abnormal
+1 normal
 ```
 
 # 🧪 Train Params
 📌 *의료영상 특성을 고려하여, 데이터 증강을 최소화하고 모자이크를 비활성화했습니다.*
 ```
 model.train(
-    data="datasets",
+    data="yolo_chest_x_ray/datasets",
     epochs=300,
     batch=32,
-    imgsz=512,
+    imgsz=256,
     patience=5,
     device="mps",
     hsv_h=0.0,
@@ -64,17 +60,17 @@ model.train(
 
 # 🔢 Batch Size
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/64892439-03e3-4c9c-af34-a6f77f905cac" width="1000">
+  <img src="https://github.com/user-attachments/assets/a6b3eef5-7211-4f1e-a783-341665eb885f" width="1000">
 </p>
 
 # 📸 Confusion Matrix
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/72c004d0-01e5-47bf-aa2c-58b4de1c5411" width="1000">
+  <img src="https://github.com/user-attachments/assets/804b5e47-53a4-4336-b339-f452f78b923e" width="1000">
 </p>
 
 # 📈 Result Graphs
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c09f2a73-fdfc-41dc-afbd-de4c06c12b4d" width="1000">
+  <img src="https://github.com/user-attachments/assets/71daf636-2184-4188-99e8-b6328474276d" width="1000">
 </p>
 
 # 🖼️ Result Images
@@ -90,18 +86,11 @@ model.train(
 
 ## 📊 성능 평가 결과
 
-| 클래스 | Top-1 Accuracy | Top-5 Accuracy |
-|--------|----------------|----------------|
-| 전체   | 99.67%         | 100.00%        |
-
 - Top-1 Accuracy: 모델이 가장 높은 확률로 예측한 클래스가 실제 정답과 일치하는 비율  
 - Top-5 Accuracy: 모델이 확률 상위 5개 예측 중에 실제 정답이 포함되는 비율
 
 ---
 
 ## 🎉 결론
-
-YOLO11n classification 모델은 해당 검증 데이터셋에서 매우 높은 정확도를 보였습니다.  
-Top-1 정확도 99.67%, Top-5 정확도 100%로 우수한 성능을 확인할 수 있습니다.
 
 ---
