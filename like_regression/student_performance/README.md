@@ -23,20 +23,19 @@ Students performance analysis and GPA prediction
 
 # 📊 EDA
 <p align="center">
-  <img src="" width="1000">
+  <img src="https://github.com/user-attachments/assets/5c82bece-29af-420c-b804-48b5f941e8df" width="1000">
+  <img src="https://github.com/user-attachments/assets/de30a392-6a39-4087-bf05-887237db48d6" width="1000">
+  <img src="https://github.com/user-attachments/assets/de30a392-6a39-4087-bf05-887237db48d6" width="1000">
+  <img src="https://github.com/user-attachments/assets/cf96fb63-279b-4cc5-9374-751843db6583" width="1000">
+  <img src="https://github.com/user-attachments/assets/ebfb88b3-968c-4756-bbc9-f8d8456e3fdd" width="1000">
+  <img src="https://github.com/user-attachments/assets/8a2d24b4-9cd4-4ed2-9c22-b60c9e34cd3a" width="1000">
+  <img src="https://github.com/user-attachments/assets/38150ab1-682b-42e6-ad5a-e764fdaf1b23" width="1000">
+  <img src="https://github.com/user-attachments/assets/10e407a0-c63c-4cd6-89f3-de28566369e6" width="1000">
+  <img src="https://github.com/user-attachments/assets/466167a5-7fc1-4846-9270-73192f29bd1d" width="1000">
+  <img src="https://github.com/user-attachments/assets/a4eb3a4d-5014-4362-985a-154a4a2dc6b7" width="1000">
+  <img src="https://github.com/user-attachments/assets/a4db2523-baac-4708-867b-4b9bdf71acd8" width="1000">
+  <img src="https://github.com/user-attachments/assets/b0570a43-b08e-4e86-935f-40713c72563c" width="1000">
 </p>
-
-<img width="1000" height="800" alt="Image" src="https://github.com/user-attachments/assets/5c82bece-29af-420c-b804-48b5f941e8df" />
-<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/de30a392-6a39-4087-bf05-887237db48d6" />
-<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/cf96fb63-279b-4cc5-9374-751843db6583" />
-<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/ebfb88b3-968c-4756-bbc9-f8d8456e3fdd" />
-<img width="567" height="500" alt="Image" src="https://github.com/user-attachments/assets/8a2d24b4-9cd4-4ed2-9c22-b60c9e34cd3a" />
-<img width="567" height="500" alt="Image" src="https://github.com/user-attachments/assets/38150ab1-682b-42e6-ad5a-e764fdaf1b23" />
-<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/10e407a0-c63c-4cd6-89f3-de28566369e6" />
-<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/466167a5-7fc1-4846-9270-73192f29bd1d" />
-<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/a4eb3a4d-5014-4362-985a-154a4a2dc6b7" />
-<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/a4db2523-baac-4708-867b-4b9bdf71acd8" />
-<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/b0570a43-b08e-4e86-935f-40713c72563c" />
 
 ---
 
