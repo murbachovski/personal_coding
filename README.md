@@ -23,8 +23,8 @@ FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
 ---
 
 ## 🧑‍💻 trans_senti/sentiment_analysis
-✨ Hugging Face Transformers 기반으로
-영어 문장에 대해 긍정(POSITIVE) 또는 부정(NEGATIVE)을 분류하는
+✨ Hugging Face Transformers 기반으로  
+영어 문장에 대해 긍정(POSITIVE) 또는 부정(NEGATIVE)을 분류하는  
 간단하고 강력한 텍스트 감정 분석 모델
 
 ---
