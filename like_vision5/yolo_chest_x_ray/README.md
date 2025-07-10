@@ -1,6 +1,6 @@
 # 🚀 프로젝트 설명
 ```
-Ultralytics YOLO11n-cls 기반으로 흉부 CT에서 5가지 질환을 분류하는 의료영상 특화 모델
+Ultralytics YOLO11m-cls 기반으로 흉부 X-ray에서 Normal / Abnormal 분류하는 의료영상 특화 모델
 ```
 
 # ⚙️ 환경 및 모델 정보
@@ -14,14 +14,22 @@ Ultralytics YOLO11n-cls 기반으로 흉부 CT에서 5가지 질환을 분류하
 
 # 🐍 가상환경 생성
 ```
-conda create -n chestct python=3.10
+conda create -n chest_x_ray python=3.10
 pip install ultralytics
 ```
 
 # 📁 AIHub
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f9330667-f430-4126-b90d-ea9acdda600b" width="1000">
+  <img src="https://github.com/user-attachments/assets/63e76387-784c-4b22-a0f8-8310af0839ce" width="1000">
+  https://www.kaggle.com/datasets/tolgadincer/labeled-chest-xray-images
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d8b20258-d663-4e5b-a986-ce2b6398a088" width="1000">
+  https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+</p>
+
 
 # 🫁 Classes
 ```
