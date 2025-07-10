@@ -1,6 +1,6 @@
 # 🖼️ OCR 웹 서비스 (FastAPI + Tesseract)
 
-이미지를 업로드하면 Tesseract OCR을 이용해 텍스트(영어/한글)를 추출해주는  
+이미지를 업로드하면 Tesseract OCR을 이용해 텍스트(영어)를 추출해주는  
 **FastAPI 기반의 간단하고 직관적인 웹 애플리케이션**입니다.
 
 ---
