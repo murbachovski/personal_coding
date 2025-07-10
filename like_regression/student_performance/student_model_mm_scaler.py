@@ -1,4 +1,4 @@
-# ✅ StandardScaler 적용
+# ✅ MinMaxScaler 적용
 
 import os
 import random
