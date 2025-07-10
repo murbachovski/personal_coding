@@ -69,3 +69,11 @@ iTerm2 터미널에서 바로 출력하는 도구
 ## 💾 like_vision5/yolo_chest_x_ray
 🫁 Ultralytics YOLO11m-cls 기반으로  
 흉부 X-ray에서 normal / abnormal을 분류하는 의료영상 특화 모델
+
+---
+
+## 🖼️ OCR 웹 서비스 (FastAPI + Tesseract)
+✨ 이미지를 업로드하면 Tesseract OCR을 이용해 텍스트(영어/한글)를 추출해주는  
+FastAPI 기반의 간단하고 직관적인 웹 애플리케이션
+
+---
