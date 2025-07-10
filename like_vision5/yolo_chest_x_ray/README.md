@@ -42,7 +42,7 @@ pip install ultralytics
 model.train(
     data="yolo_chest_x_ray/datasets",
     epochs=300,
-    batch=32,
+    batch=16,
     imgsz=256,
     patience=5,
     device="mps",
