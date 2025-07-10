@@ -44,3 +44,9 @@ iTerm2 터미널에서 바로 출력하는 도구
 ## 👀 like_vision4/yolo_chest_ct
 🫁 Ultralytics YOLO11n-cls 기반으로  
 흉부 CT에서 5가지 질환을 분류하는 의료영상 특화 모델
+
+---
+
+## 👀 like_vision5/yolo_chest_x_ray
+🫁 Ultralytics YOLO11m-cls 기반으로  
+흉부 X-ray에서 normal / abnormal을 분류하는 의료영상 특화 모델
