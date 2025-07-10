@@ -16,6 +16,11 @@ FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
 
 ---
 
+## 🏅 ike_regression/student_performance
+📖 학생 데이터 기반 머신러닝을 활용해 GPA를 예측하는  
+회귀 모델 프로젝트
+---
+
 ## 📝 like_text/text2sum2trans_en  
 ⚡ 영어 문장을 자동으로 요약하고  
 한국어로 번역해주는 FastAPI 기반 웹 애플리케이션
