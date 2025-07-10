@@ -35,6 +35,12 @@ FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
 
 ---
 
+## 🧑‍💻 like_text3/gr_trans_en2ko
+♒︎ 영어 문장을 입력하면 자연스럽게 한국어로 번역해주는  
+웹 기반 번역 애플리케이션
+
+---
+
 ## 🎥 like_vision/openapi_cctv_detect  
 🚦 ITS OpenAPI 기반 CCTV 실시간 영상에서  
 YOLO로 객체를 탐지하는 프로젝트
