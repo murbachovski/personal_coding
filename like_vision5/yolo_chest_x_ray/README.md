@@ -77,6 +77,8 @@ model.train(
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d43004f8-b9cd-4735-aefe-3de029e45e90" width="190">
   <img src="https://github.com/user-attachments/assets/074bc531-7793-4f1a-a883-156d7cb9c254" width="190">
+</p>
+<p align="center">
   <img src="https://github.com/user-attachments/assets/dec2d639-cf35-4ad1-b899-7d1984b42ec8" width="190">
   <img src="https://github.com/user-attachments/assets/9df6f924-ba80-4a0f-a079-afe7154761d6" width="190">
 </p>
