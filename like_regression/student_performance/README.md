@@ -41,11 +41,11 @@ Students performance analysis and GPA prediction
 
 ## 📊 성능 평가 결과
 
-<기존>  
+- <기존>  
 Total deviation: 4.39344392454638  
 Average deviation: 0.29289626163642535  
 
-<MinMaxScaler 적용>  
+-- <MinMaxScaler 적용>  
 Total deviation: 1.9896162748336792  
 Average deviation: 0.13264109194278717  
 
