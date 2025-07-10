@@ -43,6 +43,9 @@ uvicorn main:app --reload
 # 🖼️ Result Images
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d5eebf20-83a5-420e-a9b5-1f5a39164fb9" width="1000">
+</p>
+
+<p align="center">
   <img src="https://github.com/user-attachments/assets/33669e67-3bc5-4eb0-ad60-5b61974dad54" width="1000">
 </p>
 
