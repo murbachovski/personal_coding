@@ -60,7 +60,7 @@ model.train(
 
 # 🔢 Batch Size
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a6b3eef5-7211-4f1e-a783-341665eb885f" width="1000">
+  <img src="https://github.com/user-attachments/assets/71daf636-2184-4188-99e8-b6328474276d" width="1000">
 </p>
 
 # 📸 Confusion Matrix
@@ -70,7 +70,7 @@ model.train(
 
 # 📈 Result Graphs
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/71daf636-2184-4188-99e8-b6328474276d" width="1000">
+  <img src="https://github.com/user-attachments/assets/a6b3eef5-7211-4f1e-a783-341665eb885f" width="1000">
 </p>
 
 # 🖼️ Result Images
