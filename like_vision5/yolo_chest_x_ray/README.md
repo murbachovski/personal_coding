@@ -86,6 +86,8 @@ model.train(
 ---
 
 ## 📊 성능 평가 결과
+# Top-1 Accuracy: 90.21%
+# Top-5 Accuracy: 100.00%
 
 - Top-1 Accuracy: 모델이 가장 높은 확률로 예측한 클래스가 실제 정답과 일치하는 비율  
 - Top-5 Accuracy: 모델이 확률 상위 5개 예측 중에 실제 정답이 포함되는 비율
