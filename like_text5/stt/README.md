@@ -1,29 +1,33 @@
+# 🚀 음성 파일 요약 및 번역 프로젝트
+
+---
+
 ## 🚀 프로젝트 설명
 
-웹에서 영어 문장을 입력받아 `language_tool_python` 라이브러리를 활용해 문법과 맞춤법을 자동으로 교정해주는 FastAPI 기반 웹 서비스입니다.  
-입력한 문장이 이미 깔끔하면 사용자에게 친절한 안내 메시지를 제공합니다.
+음성 파일을 업로드하면 Whisper 모델로 음성을 텍스트로 변환하고, 변환된 텍스트를 Transformers 기반 요약 모델로 요약한 뒤, 최종적으로 Google Translate를 통해 한국어로 번역하는 웹 서비스 프로젝트입니다.  
+FastAPI와 Jinja2를 이용해 간단한 웹 인터페이스를 제공하며, 사용자가 음성 파일을 쉽게 업로드하고 결과를 확인할 수 있도록 구현했습니다.
 
 ---
 
 ## ⚙️ 환경 및 기술 스택
 
-- **Backend**: FastAPI  
-- **문법 교정 엔진**: language_tool_python (LanguageTool API 래퍼)  
-- **Python 패키지**: fastapi, uvicorn, jinja2, python-multipart, language-tool-python  
-- **Frontend**: Jinja2 템플릿 엔진 기반 HTML/CSS  
-- **운영체제**: macOS (Java OpenJDK 설치 필요)  
+- Python 3.9+
+- FastAPI (웹 서버)
+- Whisper (음성 → 텍스트)
+- Huggingface Transformers (텍스트 요약)
+- googletrans (영어 → 한국어 번역)
+- Jinja2 (템플릿 렌더링)
+- Uvicorn (ASGI 서버)
 
 ---
 
 ## 🐍 가상환경 생성
-```
-conda create -n sen_corr python=3.9
-```
 
-## 🌈 패키지 설치
-```
-./setup.sh
-```
+```bash
+conda create -n stt python=3.9
+conda activate stt
+pip install fastapi uvicorn whisper transformers googletrans==4.0.0-rc1 jinja2
+
 
 ## 💡 FastAPI 서버 실행
 ```
