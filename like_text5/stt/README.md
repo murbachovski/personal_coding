@@ -31,8 +31,8 @@ pip install fastapi uvicorn whisper transformers googletrans==4.0.0-rc1 jinja2
 
 # 🖼️ Get mp3
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6e11d6b5-9396-424e-b6e6-74e90bdf8141" width="700">
   Papago => F12 => Network => Media  => 텍스트 삽입 => 텍스트 음성 재생 => 음성 파일 확인 후 다운로드
+  <img src="https://github.com/user-attachments/assets/6e11d6b5-9396-424e-b6e6-74e90bdf8141" width="700">
 </p>
 
 # 🖼️ Result Images
