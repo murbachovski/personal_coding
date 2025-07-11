@@ -33,15 +33,15 @@ pip install deep-translator
 
 # 🖼️ Result Images
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/93b4eb3b-3f52-45cf-9f7e-cd1d5107d815" width="1000">
-</p>
-
-<p align="center">
   <img src="https://github.com/user-attachments/assets/fef7cf22-c1cb-4ed9-a936-96399acf5a23" width="1000">
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7fbd25c2-a7af-43a7-95b7-87712a0cf57f" width="1000">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/93b4eb3b-3f52-45cf-9f7e-cd1d5107d815" width="1000">
 </p>
 
 ---
