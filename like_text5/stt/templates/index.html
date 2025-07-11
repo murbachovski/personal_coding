@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🎙️ 음성 요약 및 번역 서비스</title>
+    <meta charset="UTF-8" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #e6f2f1;
+        }
+        h2 {
+            text-align: center;
+            color: #9912eb;
+            margin-bottom: 30px;
+        }
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* 숨긴 기본 파일 input */
+        #file-upload {
+            display: none;
+        }
+        /* 커스텀 파일 업로드 버튼 */
+        label[for="file-upload"] {
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            user-select: none;
+            margin-bottom: 20px;
+            width: 250px;
+            text-align: center;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+        label[for="file-upload"]:hover {
+            background-color: #1e40af;
+        }
+        /* 업로드 준비 완료 메시지 (파일업로드 버튼 바로 아래) */
+        #upload-status {
+            color: green;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 15px;
+            height: 18px; /* 자리 확보 */
+            display: none;
+            text-align: center;
+            width: 250px;
+        }
+        /* 업로드 버튼 */
+        #submit-btn {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            width: 250px;
+            text-align: center;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+        #submit-btn:disabled {
+            background-color: #999;
+            cursor: not-allowed;
+        }
+        /* 프로그래스바 */
+        #loading {
+            display: none;
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        progress {
+            width: 100%;
+            height: 20px;
+        }
+        /* 결과 박스 */
+        .result-block {
+            background: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            white-space: pre-wrap;
+            color: #333;
+        }
+        /* 결과 제목 */
+        .result-block h3 {
+            margin-top: 0;
+            color: #2563eb;
+            text-align: center;  /* 가운데 정렬 추가 */
+        }
+        /* 결과 내용 (텍스트) */
+        .result-block {
+            background: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            white-space: pre-wrap;
+            color: #333;
+            text-align: left;  /* 왼쪽 정렬 유지 */
+            white-space: pre-line; /* pre-wrap 대신 pre-line으로 변경 */
+        }
+    </style>
+</head>
+<body>
+    <h2>🎙️ 음성 파일 업로드 후 요약 및 번역</h2>
+
+    <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+        <input id="file-upload" type="file" name="file" accept="audio/*" required />
+        <label for="file-upload">음성 파일 업로드</label>
+        <div id="upload-status">✔ 업로드 완료</div>
+        <button type="submit" id="submit-btn">텍스트 요약</button>
+    </form>
+
+    <div id="loading">
+        <strong>음성 파일에서 텍스트 추출 중 . . .</strong>
+        <progress></progress>
+    </div>
+
+    {% if transcript %}
+        <div class="result-block">
+            <h3>📝 인식 결과 (원문)</h3>
+            {{ transcript }}
+        </div>
+    {% endif %}
+
+    {% if summary %}
+        <div class="result-block">
+            <h3>📚 요약 결과 (영문)</h3>
+            {{ summary }}
+        </div>
+    {% endif %}
+
+    {% if translated %}
+        <div class="result-block">
+            <h3>🌏 요약 결과 (한글 번역)</h3>
+            {{ translated }}
+        </div>
+    {% endif %}
+
+    <script>
+      const fileInput = document.getElementById('file-upload');
+      const uploadStatus = document.getElementById('upload-status');
+      const submitBtn = document.getElementById('submit-btn');
+      const form = document.getElementById('upload-form');
+      const loading = document.getElementById('loading');
+
+      uploadStatus.style.display = 'none';  // 초기 숨김
+
+      fileInput.addEventListener('change', () => {
+        if (fileInput.files.length > 0) {
+          uploadStatus.style.display = 'block';
+        } else {
+          uploadStatus.style.display = 'none';
+        }
+      });
+
+      form.addEventListener('submit', () => {
+        submitBtn.disabled = true;
+        loading.style.display = 'block';
+      });
+    </script>
+</body>
+</html>
