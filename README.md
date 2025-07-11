@@ -47,6 +47,12 @@ FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
 
 ---
 
+## 🇺🇸 like_text5/stt
+음성 파일을 Whisper로 텍스트 변환 후 요약하고  
+Google Translate로 번역해 FastAPI 웹에서 결과를 제공하는 서비스
+
+---
+
 ## 🎥 like_vision/openapi_cctv_detect  
 🚦 ITS OpenAPI 기반 CCTV 실시간 영상에서  
 YOLO로 객체를 탐지하는 프로젝트
