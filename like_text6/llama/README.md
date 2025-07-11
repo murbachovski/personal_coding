@@ -14,10 +14,10 @@ pip install termcolor
 ./run.sh
 ```
 
-# 🖼️ LMStudio 
-```
-# https://lmstudio.ai/
-```
+## 🔗 LMStudio 참고 링크
+
+- [LMStudio](# https://lmstudio.ai)
+- [LMStudio 공식 Python 문서](https://lmstudio.ai/docs/python)
 
 # 🖼️ Model Setting
 <p align="center">
