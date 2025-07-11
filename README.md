@@ -55,6 +55,7 @@ Google Translate로 한국어 번역을 제공하는 FastAPI 웹 서비스
 
 ## 𑿿 like_text6/llama
 LMStudio 기반의 로컬 LLM 챗봇
+
 ---
 
 ## 🎥 like_vision/openapi_cctv_detect  
