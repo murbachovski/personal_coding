@@ -17,7 +17,7 @@
 ---
 
 ## 🐍 가상환경 생성 및 설치
-```bash
+```
 conda create -n stt python=3.9
 conda activate stt
 pip install fastapi uvicorn whisper transformers googletrans==4.0.0-rc1 jinja2
@@ -43,10 +43,6 @@ pip install fastapi uvicorn whisper transformers googletrans==4.0.0-rc1 jinja2
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/244f0f1b-b527-46a1-9808-dfc1f4bcc94e" width="700">
-</p>
-
-<p align="center">
-  <img src="" width="700">
 </p>
 
 ---
