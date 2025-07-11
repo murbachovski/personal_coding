@@ -51,6 +51,9 @@ FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
 Whisper로 음성을 텍스트로 변환하고, Hugging Face의 BART 요약 모델로 요약 후  
 Google Translate로 한국어 번역을 제공하는 FastAPI 웹 서비스
 
+---
+
+## 𑿿 like_text6/llama
 
 ---
 
