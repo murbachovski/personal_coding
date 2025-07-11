@@ -1,6 +1,7 @@
 ## 🚀 프로젝트 설명
 
-음성 파일을 Whisper로 텍스트 변환 후 요약하고, Google Translate로 번역해 FastAPI 웹에서 결과를 제공하는 서비스
+Whisper로 음성을 텍스트로 변환하고, Hugging Face의 BART 요약 모델로 요약 후
+Google Translate로 한국어 번역을 제공하는 FastAPI 웹 서비스
 
 ---
 
