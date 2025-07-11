@@ -1,26 +1,50 @@
-# 프로젝트 설명
+## 🚀 프로젝트 설명
+
+웹에서 영어 문장을 입력받아 `language_tool_python` 라이브러리를 활용해 문법과 맞춤법을 자동으로 교정해주는 FastAPI 기반 웹 서비스입니다.  
+입력한 문장이 이미 깔끔하면 사용자에게 친절한 안내 메시지를 제공합니다.
+
+---
+
+## ⚙️ 환경 및 기술 스택
+
+- **Backend**: FastAPI  
+- **문법 교정 엔진**: language_tool_python (LanguageTool API 래퍼)  
+- **Python 패키지**: fastapi, uvicorn, jinja2, python-multipart, language-tool-python  
+- **Frontend**: Jinja2 템플릿 엔진 기반 HTML/CSS  
+- **운영체제**: macOS (Java OpenJDK 설치 필요)  
+
+---
+
+## 🐍 가상환경 생성
 ```
-ITS OpenAPI 기반 CCTV + YOLO 탐지
+conda create -n sen_corr python=3.9
 ```
 
-# OpenAPI
+## 🌈 패키지 설치
 ```
-# ITS
-# https://its.go.kr/opendata/
-```
-
-# 가상환경 생성
-```
-# conda create -n oapi python=3.9
-# pip install pandas opencv-python ultralytics
+./setup.sh
 ```
 
-# OpenAPI 설명
+## 💡 FastAPI 서버 실행
+```
+./run.sh
+```
+
+# 🖼️ Result Images
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9e80f6a1-f7c2-47ee-b162-a59e9cc888fb" width="1000">
+  <img src="https://github.com/user-attachments/assets/c1086e00-4ee6-4a13-95ce-dbebdbde22a4" width="700">
 </p>
 
-# 결과
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2782037f-842c-469c-9118-51526f8f356f" width="1000">
+  <img src="https://github.com/user-attachments/assets/a404619a-c45e-4e7f-a21d-fbe17da7b240" width="700">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/901a76e6-32fd-4d11-bb34-aa56a07ffc60" width="700">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d7112040-a81f-4e0c-9c21-b68555b54562" width="700">
+</p>
+
+---
