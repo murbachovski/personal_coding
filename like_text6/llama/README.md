@@ -21,17 +21,17 @@ pip install termcolor
 
 # 🖼️ Model Setting
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0a3be53b-a1a6-4315-9e8d-f2adc1d6d87c" width="700">
+  <img src="https://github.com/user-attachments/assets/0a3be53b-a1a6-4315-9e8d-f2adc1d6d87c" width="1000">
 </p>
 
 # 🖼️ Server Start
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a35613b8-fbf6-43fe-af27-ff5ef7fec02e" width="700">
+  <img src="https://github.com/user-attachments/assets/a35613b8-fbf6-43fe-af27-ff5ef7fec02e" width="1000">
 </p>
 
 # 🖼️ Result Images
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/da5fe150-e6bc-4a2f-8c7f-4750bcff7334" width="700">
+  <img src="https://github.com/user-attachments/assets/da5fe150-e6bc-4a2f-8c7f-4750bcff7334" width="1000">
 </p>
 
 ---
