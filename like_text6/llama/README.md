@@ -1,5 +1,7 @@
 ## 🚀 프로젝트 설명
-### LMStudio 기반의 로컬 LLM 챗봇
+```
+LMStudio 기반의 로컬 LLM 챗봇
+```
 
 ## 🐍 가상환경 생성
 ```
@@ -15,7 +17,6 @@ pip install termcolor
 ```
 
 ## 🔗 LMStudio 참고 링크
-
 - [LMStudio](https://lmstudio.ai)
 - [LMStudio 공식 Python 문서](https://lmstudio.ai/docs/python)
 
