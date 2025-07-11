@@ -47,9 +47,10 @@ FastAPI 기반 **이미지 캡셔닝** 웹 애플리케이션
 
 ---
 
-## 🇺🇸 like_text5/stt
-음성 파일을 Whisper로 텍스트 변환 후 요약하고  
-Google Translate로 번역해 FastAPI 웹에서 결과를 제공하는 서비스
+## 🎤 like_text5/stt
+Whisper로 음성을 텍스트로 변환하고, Hugging Face의 BART 요약 모델로 요약 후  
+Google Translate로 한국어 번역을 제공하는 FastAPI 웹 서비스
+
 
 ---
 
