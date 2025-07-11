@@ -45,8 +45,3 @@ pip install deep-translator
 </p>
 
 ---
-
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/da5fe150-e6bc-4a2f-8c7f-4750bcff7334" width="1000">
-</p>
