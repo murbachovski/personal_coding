@@ -58,6 +58,11 @@ LMStudio 기반의 로컬 LLM 챗봇
 
 ---
 
+## 𑿿 like_text6/llama_trans
+LMStudio 기반의 로컬 LLM 챗봇(번역 기능 추가)
+
+---
+
 ## 🎥 like_vision/openapi_cctv_detect  
 🚦 ITS OpenAPI 기반 CCTV 실시간 영상에서  
 YOLO로 객체를 탐지하는 프로젝트
