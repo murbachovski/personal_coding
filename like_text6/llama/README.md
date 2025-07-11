@@ -20,7 +20,7 @@ pip install termcolor
 - [LMStudio](https://lmstudio.ai)
 - [LMStudio 공식 Python 문서](https://lmstudio.ai/docs/python)
 
-# 🖼️ Model Setting
+# 🖼️ Model Download
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0a3be53b-a1a6-4315-9e8d-f2adc1d6d87c" width="1000">
 </p>
