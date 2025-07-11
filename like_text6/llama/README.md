@@ -1,13 +1,10 @@
 ## 🚀 프로젝트 설명
-
----
-
-## ⚙️ 환경 및 기술 스택
-
+LMStudio 기반의 로컬 LLM 챗봇
 ---
 
 ## 🐍 가상환경 생성
 ```
+conda create -n lm python=3.10
 pip install lmstudio
 pip install pyfiglet
 pip install termcolor
